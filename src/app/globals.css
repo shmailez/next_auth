@@ -57,6 +57,40 @@ nav li {
   margin: 0 10px;
 }
 
+.singpage {
+  /* background-color: green; */
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.googlebutton {
+  margin: 8px;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.singform {
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+}
+
+.singform input{
+  margin: 8px;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.singform button{
+  margin: 8px;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
