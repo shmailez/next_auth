@@ -17,14 +17,6 @@ export default function SignInForm() {
             redirect: false
         })
 
-        // if (res && !res.error) {
-        //     router.push('/profile')
-        // } else {
-        //     console.log(res)
-        // }
-
-        console.log('res', res)
-
         if (res && !res.error) {
             router.push("/profile");
           } else {

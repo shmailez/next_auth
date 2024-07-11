@@ -13,11 +13,4 @@ export const GoogleButton = () => {
             onClick={() => signIn('google', {callbackUrl})}
         >Sign In with Google</button>
     </>
-    // const callbackUrl = searchParams.get("callbackUrl") || "/profile";
-
-    // return (
-    //   <button onClick={() => signIn("google", { callbackUrl })}>
-    //     Sign in with Google
-    //   </button>
-    // );
 }

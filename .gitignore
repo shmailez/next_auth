@@ -9,6 +9,8 @@
 # testing
 /coverage
 
+/xcopy
+
 # next.js
 /.next/
 /out/
