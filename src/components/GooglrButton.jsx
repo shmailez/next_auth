@@ -9,8 +9,9 @@ export const GoogleButton = () => {
     const callbackUrl = searchParams.get("callbackUrl") || '/profile'
 
     return <>
-        <button className="googlebutton"
-            onClick={() => signIn('google', {callbackUrl})}
+        <button 
+        className="googlebutton"
+        onClick={() => signIn('google', {callbackUrl})}
         >Sign In with Google</button>
     </>
 }

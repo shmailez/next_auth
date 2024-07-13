@@ -27,6 +27,7 @@ export const authCoufig = {
             }
         })
     ],
+    secret: process.env.NEXTAUTH_SECRET,
     pages: {
         signIn: '/signin'
     }

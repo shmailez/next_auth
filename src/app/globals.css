@@ -57,6 +57,10 @@ nav li {
   margin: 0 10px;
 }
 
+h1 {
+  font-family: var(--font-mono);
+}
+
 .singpage {
   /* background-color: green; */
   display: flex;

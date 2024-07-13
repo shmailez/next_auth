@@ -4,15 +4,14 @@ import { Suspense } from "react";
 
 export default  function Signin() {
     return <>
-    <Suspense fallback={<Loading />}>
-    <div className="singpage">
-        <h1>Sign In</h1>
-        <GoogleButton/>
-        <p>OR</p>
-        <SignInForm/>
-    </div>
-    </Suspense>
-        
+        <Suspense fallback={<Loading />}>
+            <div className="singpage">
+                <h1>Sign In</h1>
+                <GoogleButton/>
+                <p>OR</p>
+                <SignInForm/>
+            </div>
+        </Suspense>
     </>
 }
 
